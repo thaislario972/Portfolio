@@ -1,5 +1,14 @@
+
+
 <template>
-  <div>
-  <div class="bg-red-700">bro</div>
-  </div>
+
+  <NuxtLayout>
+    <NuxtPage />
+  </NuxtLayout>
+
 </template>
+
+
+<script setup lang="ts">
+
+</script>
