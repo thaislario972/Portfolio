@@ -1,1 +1,56 @@
 @import "tailwindcss";
+
+
+@theme {
+    --color-lavand: #C27AFF;
+    --color-turq: #00B8DB;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* halo lumineux */
+.light {
+    @apply w-[600px] h-[600px] rounded-full blur-[120px] opacity-60 animate-pulse;
+    background: radial-gradient(
+            circle,
+            rgba(194,122,255,0.80),
+            rgba(194,122,255,0.50)
+    );
+}
+
+.light2 {
+    @apply w-[600px] h-[600px] rounded-full blur-[120px] opacity-60 animate-pulse;
+    background: radial-gradient(
+            circle,
+            rgba(0,184,219,0.80),
+            rgba(0,184,219,0.50)
+    );
+}
+
+/* décalage d’animation */
+.animation-delay-2000 {
+    animation-delay: 2s;
+}
+
+.animation-delay-4000 {
+    animation-delay: 4s;
+}
+.bg-violet {
+    @apply rounded-full blur-[180px] opacity-30;
+    background: linear-gradient(
+
+            rgba(168,85,247,0.35),
+            rgba(168,85,247,0)
+    );
+}
+
+.bg-turquoise {
+    @apply rounded-full blur-[180px] opacity-30;
+    background: radial-gradient(
+            circle,
+            rgba(34,211,238,0.35),
+            rgba(34,211,238,0)
+    );
+}
