@@ -3,13 +3,14 @@
 </script>
 
 <template>
-<div class="bg-black w-full h-30 flex justify-between ">
-  <p class=" text-white">logo</p>
-  <nuxt-link to="/Home.vue" class=" text-white">Accueil</nuxt-link>
-  <nuxt-link to="/mes-projets.vue" class="text-white">Mes projets</nuxt-link>
-  <button class="text-white">Sui suis-je</button>
-  <button class="text-white">Contact</button>
-</div>
+  <div class="bg-black w-full h-30 flex justify-between ">
+    <p class=" text-white">logo</p>
+    <nav class="flex justify-between w-50">
+      <NuxtLink to="/" class="text-white">Accueil</NuxtLink>
+      <NuxtLink to="/mes-projets" class="text-white">Mes projets</NuxtLink>
+    </nav>
+  </div>
+
 </template>
 
 <style scoped>
