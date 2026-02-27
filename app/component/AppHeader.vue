@@ -6,7 +6,7 @@ const closeMenu = () => (isOpen.value = false)
 </script>
 
 <template >
-  <header class="fixed sm:static w-full bg-black/95">
+  <header class="fixed sm:static w-full bg-black/95 border-b border-white/20">
     <div class="h-24 px-6 md:px-10 flex items-center justify-between">
       <!-- Logo -->
       <NuxtLink to="/" class="flex items-center">
