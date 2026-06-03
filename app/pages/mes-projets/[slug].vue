@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import { computed } from 'vue'
-import { useRoute } from 'vue-router'
 import { projects, type TagKey } from '~/data/projects'
 
 import Vitrine from "~/component/Vitrine.vue"
@@ -22,12 +21,10 @@ const tagComponent: Record<TagKey, any> = {
   'ux-ui': UXUI,
 }
 
-// Si slug inconnu -> 404
 if (!project.value) {
   throw createError({ statusCode: 404, statusMessage: 'Projet introuvable' })
 }
 
-// SEO simple (optionnel)
 useHead(() => ({
   title: project.value?.title ? `${project.value.title} | Portfolio` : 'Projet | Portfolio',
   meta: [
