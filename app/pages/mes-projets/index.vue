@@ -29,7 +29,7 @@
       <NuxtLink
           v-for="project in filteredProjects"
           :key="project.id"
-          :to="'/mes-projets/' + project.slug"
+          :to="`/mes-projets/${project.slug}`"
           class="group flex flex-col justify-center items-center border border-white/40 hover:border-lavand rounded-2xl p-0 overflow-hidden transition-transform hover:scale-[1.01] min-h-[560px]"
       >
         <div class="w-full h-[55%] overflow-hidden">
