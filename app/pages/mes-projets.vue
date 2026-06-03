@@ -123,7 +123,7 @@ const filteredProjects = computed(() => {
     </div>
 
     <!-- GRID CARTES -->
-    <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-8 p-10 bg-gradient-to-bl from-turq/20 via-black to-lavand/15">
+    <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-8 p-10 bg-gradient-to-bl from-turq/20 via-black to-lavand/15 px-5 md:px-10 lg:px-15 3xl:px-30 4xl:px-[15%]">
       <NuxtLink
           v-for="p in filteredProjects"
           :key="p.id"
@@ -138,10 +138,10 @@ const filteredProjects = computed(() => {
           />
         </div>
 
-        <div class="flex flex-col h-[45%] gap-5 p-5 group-hover:bg-gradient-to-r group-hover:from-lavand/20 group-hover:to-turq/20 rounded-b-2xl w-full">
-          <p class="text-white text-2xl font-medium">{{ p.title }}</p>
+        <div class="flex flex-col h-[48%] justify-around p-3 group-hover:bg-gradient-to-r group-hover:from-lavand/20 group-hover:to-turq/20 rounded-b-2xl w-full">
+          <p class="text-white text-xl lg:text-2xl font-medium">{{ p.title }}</p>
 
-          <p class="text-white text-lg overflow-hidden text-ellipsis">
+          <p class="text-white text-base lg:text-lg truncate lg:whitespace-normal lg:overflow-hidden lg:text-ellipsis lg:line-clamp-2">
             {{ p.desc }}
           </p>
 

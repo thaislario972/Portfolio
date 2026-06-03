@@ -5,7 +5,7 @@ import AppHeader from "~/component/AppHeader.vue";
 </script>
 
 <template>
-  <div>
+  <div >
     <AppHeader />
     <NuxtPage />
     <AppFooter />
