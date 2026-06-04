@@ -33,7 +33,7 @@ export const projects: Project[] = [
         title: "Versus Racing - Site vitrine",
         desc:
             "Maquettes, prototypage et intégration d’un site vitrine sous WordPress pour présenter la marque et sa gamme de suspensions, avec une attention portée à la structuration des contenus, à la clarté du parcours utilisateur et à la cohérence graphique sur l’ensemble des supports.",
-        imgCard: "/img/Versus/versus-racing.png",
+        imgCard: "/img/Versus/versus-blanc.png",
         tags: ['vitrine', 'wordpress'],
 
         company: "DriftShop",
