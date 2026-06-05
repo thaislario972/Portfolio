@@ -15,10 +15,10 @@
       <div class="z-5 px-8 py-[10%] text-white flex flex-col items-center sm:pt-0 pt-40 w-full">
         <p class="w-70 rounded-full h-10 bg-white/10 text-center flex justify-center items-center border-1 border-lavand mb-5 ">Designer & Développeur Web</p>
         <h1 class="lg:text-9xl mb-4 text-center text-white/90 md:text-8xl sm:text-7xl text-6xl">Créatrice <br> d'Expériences <br> Digitales</h1>
-        <p class="sm:text-2xl text-md w-fit w-200 text-center text-white/70 mt-10 sm:text-lg sm:w-150">Je conçois et développe des interfaces web modernes, intuitives et engageantes qui transforment vos idées en réalité digitale.</p>
-        <div class="mt-20 gap-10 flex">
-          <button class="md:w-70 w-50  rounded-lg h-15 bg-linear-to-r from-lavand to-turq md:text-xl text-lg hover:from-lavand/90 hover:to-turq/90"><NuxtLink to="/mes-projets">Découvrir mes projets</NuxtLink></button>
-          <button class="md:w-50 w-40 h-15 bg-black/10 border-2 border-white/5 rounded-lg md:text-xl text-lg hover:bg-neutral-800/40"><NuxtLink to="/contact">Me contacter</NuxtLink></button>
+        <p class="text-md sm:text-lg md:text-2xl w-full max-w-[90vw] sm:max-w-[38rem] text-center text-white/70 mt-10">Je conçois et développe des interfaces web modernes, intuitives et engageantes qui transforment vos idées en réalité digitale.</p>
+        <div class="mt-20 gap-5 sm:gap-10 flex flex-col sm:flex-row w-full max-w-[90vw] justify-center items-center">
+          <button class="w-[80%] sm:w-70 rounded-lg h-15 bg-linear-to-r from-lavand to-turq md:text-xl text-lg hover:from-lavand/90 hover:to-turq/90"><NuxtLink to="/mes-projets">Découvrir mes projets</NuxtLink></button>
+          <button class="w-[80%] sm:w-50 h-15 bg-black/10 border-2 border-white/5 rounded-lg md:text-xl text-lg hover:bg-neutral-800/40"><NuxtLink to="/contact">Me contacter</NuxtLink></button>
         </div>
       </div>
     </div>
