@@ -37,7 +37,7 @@ const parc = [
       <h2 class="text-white md:text-5xl text-4xl ">Qui suis-je ?</h2>
       <p class="text-white/90 md:text-xl text-md text-center sm:text-center lg:w-[60%]">Designer UX/UI et développeur web passionné, je transforme des concepts créatifs en expériences digitales mémorables.</p>
     </div>
-    <div class="bg-gradient-to-bl from-turq/25 via-black to-lavand/20 lg:px-20 py-0">
+    <div class="bg-gradient-to-bl from-turq/25 via-black to-lavand/20 lg:px-15 md:px-10 2xl:px-[15%]  py-0">
       <div class="grid xl:grid-cols-2  lg:grid-cols-1 md:grid-cols-1 sm:grid-cols-1 gap-20 lg:p-20 p-10 pt-0 ">
         <div class="flex flex-col gap-5 ">
           <img src="/img/ordi-bur.jpeg" alt="ordi" class="w-full rounded-3xl h-full object-cover" />

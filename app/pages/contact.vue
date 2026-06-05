@@ -25,13 +25,13 @@ const contact= [
 <template>
   <section class="bg-black min-h-svh bg-gradient-to-br from-lavand/25 via-black to-turq/25 flex flex-col justify-evenly">
     <div class="flex flex-col md:h-5 h-80 md:pt-0 pt-20 justify-center items-center gap-y-5 ">
-      <h2 class="text-white text-5xl ">Contactez-moi</h2>
-      <p class="text-white/90 text-xl sm:text-center lg:w-[60%]">N'hésitez pas à me contacter pour toutes questions</p>
+      <h2 class="text-white md:text-5xl text-4xl ">Contactez-moi</h2>
+      <p class="text-white/90 md:text-xl text-lg text-center lg:w-[60%]">N'hésitez pas à me contacter pour toutes questions</p>
     </div>
     <div class=" flex flex-col items-center gap-5 h-fit pb-10 ">
       <div class="flex flex-col xl:w-[50%] lg:w-[60%] md:w-[70%] w-[90%] gap-2 p-10 rounded-xl border border-lavand/50">
         <p class="text-white text-2xl">Restons en contact</p>
-        <p class="text-white/70 md:text-xl text-lg">Ce portfolio présente une sélection de mes travaux et de mon parcours. Les informations ci-dessous sont à disposition pour
+        <p class="text-white/70 md:text-xl text-md">Ce portfolio présente une sélection de mes travaux et de mon parcours. Les informations ci-dessous sont à disposition pour
           toute question, échange ou demande d’information complémentaire autour de ces réalisations.</p>
       </div>
       <div class="flex flex-col xl:w-[50%] lg:w-[60%] md:w-[70%] w-[80%]  gap-5 ">

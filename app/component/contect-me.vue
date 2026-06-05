@@ -24,7 +24,7 @@ const link = computed(() => {
 
 <template>
   <div class="group flex p-7 border border-white/40 hover:border-lavand rounded-2xl gap-3 w-full h-30 items-center hover:bg-gradient-to-r hover:from-lavand/15 hover:to-turq/15">
-    <img class="text-lavand size-18" :src="img" :alt="type" />
+    <img class="text-lavand md:size-18 size-12" :src="img" :alt="type" />
 
     <div class="flex flex-col gap-2">
       <p class="text-white/70 text-xl">{{ type }}</p>
@@ -33,7 +33,7 @@ const link = computed(() => {
       <a
           v-if="link"
           :href="link"
-          class="text-white text-2xl group-hover:text-lavand transition-colors"
+          class="text-white md:text-2xl text-lg group-hover:text-lavand transition-colors"
       >
         {{ info }}
       </a>
@@ -41,7 +41,7 @@ const link = computed(() => {
       <!-- sinon texte normal -->
       <p
           v-else
-          class="text-white text-2xl group-hover:text-lavand"
+          class="text-white md:text-2xl text-lg group-hover:text-lavand"
       >
         {{ info }}
       </p>
