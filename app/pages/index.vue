@@ -16,7 +16,7 @@
         <p class="w-70 rounded-full h-10 bg-white/10 text-center flex justify-center items-center border-1 border-lavand mb-5 ">Designer & Développeur Web</p>
         <h1 class="lg:text-9xl mb-4 text-center text-white/90 md:text-8xl sm:text-7xl text-6xl">Créatrice <br> d'Expériences <br> Digitales</h1>
         <p class="text-md sm:text-lg md:text-2xl w-full max-w-[90vw] sm:max-w-[38rem] text-center text-white/70 md:mt-10 mt-5">Je conçois et développe des interfaces web modernes, intuitives et engageantes qui transforment vos idées en réalité digitale.</p>
-        <div class="md:mt-20 mt-10 md:gap-5 gap-2 sm:gap-10 flex flex-col sm:flex-row w-full max-w-[90vw] justify-center items-center">
+        <div class="md:mt-20 mt-10 gap-5 sm:gap-10 flex flex-col sm:flex-row w-full max-w-[90vw] justify-center items-center">
           <button class="w-[70%] sm:w-70 rounded-lg md:h-15 h-12 bg-linear-to-r from-lavand to-turq md:text-xl text-lg hover:from-lavand/90 hover:to-turq/90"><NuxtLink to="/mes-projets">Découvrir mes projets</NuxtLink></button>
           <button class="w-[70%] sm:w-50 md:h-15 h-12 bg-black/10 border-2 border-white/5 rounded-lg md:text-xl text-lg hover:bg-neutral-800/40"><NuxtLink to="/contact">Me contacter</NuxtLink></button>
         </div>
@@ -45,7 +45,7 @@
     </div>
     <div class="w-full h-80 flex flex-col justify-center items-center gap-y-10 bg-linear-to-r from-lavand/20 to-turq/20">
       <p class="text-white text-xl">Prêt à démarrer votre projet ?</p>
-      <p class="text-white/80 text-lg">Discutons ensemble de votre vision et donnons vie à vos idées</p>
+      <p class="text-white/80 text-lg w-[80%]">Discutons ensemble de votre vision et donnons vie à vos idées</p>
       <button class="w-70  rounded-lg h-15 bg-linear-to-r from-lavand to-turq text-xl hover:from-lavand/90 hover:to-turq/90 text-white font-medium"> <NuxtLink to="/contact">Démarrer une conversation</NuxtLink></button>
     </div>
   </section>
