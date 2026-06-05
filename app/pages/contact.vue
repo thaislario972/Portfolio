@@ -26,7 +26,7 @@ const contact= [
   <section class="bg-black min-h-svh bg-gradient-to-br from-lavand/25 via-black to-turq/25 flex flex-col justify-evenly">
     <div class="flex flex-col md:h-5 h-80 md:pt-0 pt-20 justify-center items-center gap-y-5 ">
       <h2 class="text-white md:text-5xl text-4xl ">Contactez-moi</h2>
-      <p class="text-white/90 md:text-xl text-lg text-center lg:w-[60%]">N'hésitez pas à me contacter pour toutes questions</p>
+      <p class="text-white/90 md:text-xl text-lg text-center w-[80%] lg:w-[60%]">N'hésitez pas à me contacter pour toutes questions</p>
     </div>
     <div class=" flex flex-col items-center gap-5 h-fit pb-10 ">
       <div class="flex flex-col xl:w-[50%] lg:w-[60%] md:w-[70%] w-[90%] gap-2 p-10 rounded-xl border border-lavand/50">
