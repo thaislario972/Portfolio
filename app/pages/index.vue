@@ -3,7 +3,7 @@
 </script>
 
 <template >
-  <section class="bg-black">
+  <section class="w-full max-w-full overflow-x-hidden bg-black">
     <div class="bg-gradient-to-br w-full overflow-hidden from-turq/30 via-black to-turq/20 sm:from-lavand/15 min-h-screen sm:min-h-[calc(100vh-6rem)] flex justify-center items-center" >
       <!-- calque lumières -->
       <div class="absolute inset-0 pointer-events-none max-w-full">
