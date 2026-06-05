@@ -17,8 +17,8 @@
         <h1 class="lg:text-9xl mb-4 text-center text-white/90 md:text-8xl sm:text-7xl text-6xl">Créatrice <br> d'Expériences <br> Digitales</h1>
         <p class="sm:text-2xl text-md w-fit w-200 text-center text-white/70 mt-10 sm:text-lg sm:w-150">Je conçois et développe des interfaces web modernes, intuitives et engageantes qui transforment vos idées en réalité digitale.</p>
         <div class="mt-20 gap-10 flex">
-          <button class="w-70  rounded-lg h-15 bg-linear-to-r from-lavand to-turq text-xl hover:from-lavand/90 hover:to-turq/90"><NuxtLink to="/mes-projets">Découvrir mes projets</NuxtLink></button>
-          <button class="w-50 h-15 bg-black/10 border-2 border-white/5 rounded-lg text-xl hover:bg-neutral-800/40"><NuxtLink to="/contact">Me contacter</NuxtLink></button>
+          <button class="md:w-70 w-50  rounded-lg h-15 bg-linear-to-r from-lavand to-turq md:text-xl text-lg hover:from-lavand/90 hover:to-turq/90"><NuxtLink to="/mes-projets">Découvrir mes projets</NuxtLink></button>
+          <button class="md:w-50 w-40 h-15 bg-black/10 border-2 border-white/5 rounded-lg md:text-xl text-lg hover:bg-neutral-800/40"><NuxtLink to="/contact">Me contacter</NuxtLink></button>
         </div>
       </div>
     </div>
