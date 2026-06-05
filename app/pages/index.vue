@@ -12,7 +12,7 @@
       </div>
 
       <!-- contenu -->
-      <div class="relative z-5 px-8 py-[10%] text-white flex flex-col items-center sm:pt-0 pt-40">
+      <div class="z-5 px-8 py-[10%] text-white flex flex-col items-center sm:pt-0 pt-40">
         <p class="w-70 rounded-full h-10 bg-white/10 text-center flex justify-center items-center border-1 border-lavand mb-5 ">Designer & Développeur Web</p>
         <h1 class="lg:text-9xl mb-4 text-center text-white/90 md:text-8xl sm:text-7xl text-6xl">Créatrice <br> d'Expériences <br> Digitales</h1>
         <p class="sm:text-2xl text-md w-fit w-200 text-center text-white/70 mt-10 sm:text-lg sm:w-150">Je conçois et développe des interfaces web modernes, intuitives et engageantes qui transforment vos idées en réalité digitale.</p>
