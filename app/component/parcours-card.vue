@@ -7,7 +7,7 @@ const props = defineProps<{
 </script>
 
 <template>
-  <div class="flex gap-10 group w-full justify-center">
+  <div class="flex md:gap-10 gap-5 group w-full justify-center">
     <div class="flex flex-col justify-center items-center h-40 lg:h-45 md:h-50 sm:h-55">
       <div class="w-5 h-5 rounded-full bg-linear-to-r  from-lavand to-turq"></div>
       <div class="w-[2px] h-full bg-lavand/60 group-hover:bg-lavand "></div>
