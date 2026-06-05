@@ -44,7 +44,7 @@ const closeModal = () => {
 
 <template>
   <section class="bg-black">
-    <div class="p-20 flex flex-col items-center gap-20 bg-gradient-to-br from-lavand/20 via-black to-turq/20 sm:pt-20 pt-40">
+    <div class="md:p-20 p-10 flex flex-col items-center gap-20 bg-gradient-to-br from-lavand/20 via-black to-turq/20 sm:pt-20 pt-40">
       <!-- Tags dynamiques -->
       <div class="flex items-center justify-center gap-5" v-if="project">
         <component
@@ -56,7 +56,7 @@ const closeModal = () => {
       </div>
 
       <!-- Titre + description -->
-      <div class="flex flex-col w-[70%] items-center gap-5" v-if="project">
+      <div class="flex flex-col w-full items-center gap-5" v-if="project">
         <h2 class="text-white text-4xl text-center">{{ project.title }}</h2>
         <p class="text-white/70 sm:text-2xl text-lg text-center">{{ project.desc }}</p>
       </div>
@@ -66,26 +66,26 @@ const closeModal = () => {
       <div class="grid lg:grid-cols-4 grid-cols-2 gap-5 4xl:w-[70%] 5xl:w-[50%] w-full" v-if="project">
         <div class="flex flex-col w-full px-8 py-3 items-center justify-center gap-2 border border-white/60 rounded-lg">
           <img src="/img/user-1.svg" alt="user" class="size-10" />
-          <p class="text-white/60 text-lg text-center">Entreprise</p>
-          <p class="text-white sm:text-xl text-lg text-center">{{ project.company }}</p>
+          <p class="text-white/60 md:text-lg text-md text-center">Entreprise</p>
+          <p class="text-white md:text-xl text-sm text-center">{{ project.company }}</p>
         </div>
 
         <div class="flex flex-col w-full px-8 py-3 items-center justify-center gap-2 border border-white/60 rounded-lg">
           <img src="/img/calendar.svg" alt="calendar" class="size-10" />
-          <p class="text-white/60 text-lg text-center">Année</p>
-          <p class="text-white sm:text-xl text-lg text-center">{{ project.year }}</p>
+          <p class="text-white/60 md:text-lg text-md text-center">Année</p>
+          <p class="text-white md:text-xl text-sm text-center">{{ project.year }}</p>
         </div>
 
         <div class="flex flex-col w-full px-8 py-3 items-center justify-center gap-2 border border-white/60 rounded-lg">
           <img src="/img/clock.svg" alt="clock" class="size-10" />
-          <p class="text-white/60 text-lg text-center">Durée</p>
-          <p class="text-white sm:text-xl text-lg text-center">{{ project.duration }}</p>
+          <p class="text-white/60 md:text-lg text-md text-center">Durée</p>
+          <p class="text-white md:text-xl text-sm text-center">{{ project.duration }}</p>
         </div>
 
         <div class="flex flex-col w-full px-8 py-3 items-center justify-center gap-2 border border-white/60 rounded-lg">
           <img src="/img/check.svg" alt="check" class="size-10" />
-          <p class="text-white/60 text-lg text-center">Rôle</p>
-          <p class="text-white sm:text-xl text-lg text-center">{{ project.role }}</p>
+          <p class="text-white/60 md:text-lg text-md text-center">Rôle</p>
+          <p class="text-white md:text-xl text-sm text-center">{{ project.role }}</p>
         </div>
       </div>
 
@@ -112,18 +112,18 @@ const closeModal = () => {
       <div class="grid lg:grid-cols-2 grid-cols-1 gap-10 4xl:w-[70%] 5xl:w-[50%] w-full" v-if="project">
         <div class="flex flex-col justify-center gap-5 border border-white/60 rounded-xl p-8">
           <div class="flex gap-3 items-center">
-            <img src="/img/défi.png" alt="défi" class="size-18" />
-            <p class="text-white text-3xl">{{ project.challengeTitle }}</p>
+            <img src="/img/défi.png" alt="défi" class="md:size-18 size-15" />
+            <p class="text-white md:text-3xl text-2xl">{{ project.challengeTitle }}</p>
           </div>
-          <p class="text-white/70 text-xl whitespace-pre-line">{{ project.challengeText }}</p>
+          <p class="text-white/70 md:text-xl text-lg whitespace-pre-line">{{ project.challengeText }}</p>
         </div>
 
         <div class="flex flex-col justify-center gap-5 border border-white/60 rounded-xl p-8">
           <div class="flex gap-3 items-center">
-            <img src="/img/solution.png" alt="solution" class="size-18" />
-            <p class="text-white text-3xl">{{ project.solutionTitle }}</p>
+            <img src="/img/solution.png" alt="solution" class="md:size-18 size-15" />
+            <p class="text-white md:text-3xl text-2xl">{{ project.solutionTitle }}</p>
           </div>
-          <p class="text-white/70 text-xl whitespace-pre-line">{{ project.solutionText }}</p>
+          <p class="text-white/70 md:text-xl text-lg whitespace-pre-line">{{ project.solutionText }}</p>
         </div>
       </div>
 
@@ -137,7 +137,7 @@ const closeModal = () => {
               :key="i"
               class="flex flex-col justify-center items-center gap-5 border border-lavand/60 rounded-xl p-8 bg-gradient-to-br from-lavand/20 to-turq/20"
           >
-            <img src="/img/check.svg" alt="check" class="size-15" />
+            <img src="/img/check.svg" alt="check" class="md:size-15 size-12" />
             <p class="text-white text-xl text-center">{{ r }}</p>
           </div>
         </div>

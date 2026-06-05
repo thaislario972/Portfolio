@@ -45,7 +45,7 @@
     </div>
     <div class="w-full h-80 flex flex-col justify-center items-center gap-y-10 bg-linear-to-r from-lavand/20 to-turq/20">
       <p class="text-white text-xl">Prêt à démarrer votre projet ?</p>
-      <p class="text-white/80 text-lg w-[80%]">Discutons ensemble de votre vision et donnons vie à vos idées</p>
+      <p class="text-white/80 text-lg w-[80%] text-center">Discutons ensemble de votre vision et donnons vie à vos idées</p>
       <button class="w-70  rounded-lg h-15 bg-linear-to-r from-lavand to-turq text-xl hover:from-lavand/90 hover:to-turq/90 text-white font-medium"> <NuxtLink to="/contact">Démarrer une conversation</NuxtLink></button>
     </div>
   </section>
