@@ -39,7 +39,7 @@ const parc = [
     </div>
     <div class="bg-gradient-to-bl from-turq/25 via-black to-lavand/20 lg:px-20 py-0">
       <div class="grid xl:grid-cols-2  lg:grid-cols-1 md:grid-cols-1 sm:grid-cols-1 gap-20 lg:p-20 p-10 ">
-        <div class="flex flex-col gap-5 ">
+        <div class="flex flex-col md:gap-5 gap-2">
           <img src="/img/ordi-bur.jpeg" alt="ordi" class="w-full rounded-3xl h-full object-cover" />
           <div class="grid grid-cols-3 gap-7 sm:gap-2">
             <div class=" p-5 flex flex-col justify-center items-center gap-2 border border-white/40 rounded-3xl hover:border-lavand">
