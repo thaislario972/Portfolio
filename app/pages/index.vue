@@ -4,7 +4,7 @@
 
 <template >
   <section class="bg-black">
-    <div class="sm:h-screen bg-gradient-to-br w-screen sm:from-lavand/15 from-turq/30 via-black to-turq/20 md:flex md:justify-center md:items-center md:h-screen sm:h-[calc(100vh-6rem)] sm:flex sm:justify-center sm:items-center" >
+    <div class="bg-gradient-to-br w-full overflow-hidden from-turq/30 via-black to-turq/20 sm:from-lavand/15 min-h-screen sm:min-h-[calc(100vh-6rem)] flex justify-center items-center" >
       <!-- calque lumières -->
       <div class="absolute inset-0 pointer-events-none">
         <span class="light absolute top-18 left-[20%] color-lavand animation-delay-4000"></span>
