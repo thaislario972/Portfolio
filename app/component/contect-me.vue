@@ -24,7 +24,7 @@ const link = computed(() => {
 
 <template>
   <div class="group flex p-7 border border-white/40 hover:border-lavand rounded-2xl gap-3 w-full h-30 items-center hover:bg-gradient-to-r hover:from-lavand/15 hover:to-turq/15">
-    <img class="text-lavand md:size-18 size-12" :src="img" :alt="type" />
+    <img class="text-lavand md:size-18 size-13" :src="img" :alt="type" />
 
     <div class="flex flex-col gap-2">
       <p class="text-white/70 text-xl">{{ type }}</p>
