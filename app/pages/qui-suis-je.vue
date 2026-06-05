@@ -44,17 +44,17 @@ const parc = [
           <div class="grid grid-cols-3 md:gap-7 gap-2 sm:gap-2">
             <div class=" p-5 flex flex-col justify-center items-center gap-2 border border-white/40 rounded-3xl hover:border-lavand">
               <img src="/img/medal.svg" alt="medal" class="md:h-10 h-6"/>
-              <p class="text-white md:text-4xl text-xl">9+</p>
+              <p class="text-white md:text-4xl text-xl font-bold">9+</p>
               <p class="text-white/80 md:text-xl text-lg text-center">Projets réalisés</p>
             </div>
             <div class=" p-5 flex flex-col justify-center items-center gap-2 border border-white/40 rounded-3xl hover:border-lavand">
               <img src="/img/user.svg" alt="medal" class="md:h-10 h-6"/>
-              <p class="text-white md:text-4xl text-xl">5+</p>
+              <p class="text-white md:text-4xl text-xl font-bold">5+</p>
               <p class="text-white/80 md:text-xl text-lg text-center">Refontes UX / UI</p>
             </div>
             <div class=" p-5 flex flex-col justify-center items-center gap-2 border border-white/40 rounded-3xl hover:border-lavand">
               <img src="/img/coffee.svg" alt="medal" class="md:h-10 h-6"/>
-              <p class="text-white md:text-4xl text-xl">1000+</p>
+              <p class="text-white md:text-4xl text-xl font-bold">1000+</p>
               <p class="text-white/80 md:text-xl text-lg text-center">Tasses de café</p>
             </div>
           </div>
