@@ -23,7 +23,7 @@ const link = computed(() => {
 </script>
 
 <template>
-  <div class="group flex p-7 border border-white/40 hover:border-lavand rounded-2xl gap-3 w-full h-30 items-center hover:bg-gradient-to-r hover:from-lavand/15 hover:to-turq/15">
+  <div class="group flex md:p-7 p-5 border border-white/40 hover:border-lavand rounded-2xl gap-3 w-full h-30 items-center hover:bg-gradient-to-r hover:from-lavand/15 hover:to-turq/15">
     <img class="text-lavand md:size-18 size-13" :src="img" :alt="type" />
 
     <div class="flex flex-col gap-2">
