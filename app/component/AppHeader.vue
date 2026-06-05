@@ -6,7 +6,7 @@ const closeMenu = () => (isOpen.value = false)
 </script>
 
 <template >
-  <header class="fixed sm:static w-full bg-black/95 border-b border-white/20">
+  <header class="fixed sm:static w-full bg-black/95 border-b border-white/20 z-8">
     <div class="h-24 px-6 md:px-10 flex items-center justify-between">
       <!-- Logo -->
       <NuxtLink to="/" class="flex items-center">
@@ -44,7 +44,7 @@ const closeMenu = () => (isOpen.value = false)
     <div v-show="isOpen" class="lg:hidden border-t border-white/10">
       <nav class="flex flex-col px-6 py-6 gap-4">
         <NuxtLink @click="closeMenu" to="/" class="text-white text-lg hover:text-lavand">Accueil</NuxtLink>
-        <NuxtLink @click="closeMenu" to="/app/pages/mes-projets/index.vue" class="text-white text-lg hover:text-lavand">Mes projets</NuxtLink>
+        <NuxtLink @click="closeMenu" to="/mes-projets" class="text-white text-lg hover:text-lavand">Mes projets</NuxtLink>
         <NuxtLink @click="closeMenu" to="/qui-suis-je" class="text-white text-lg hover:text-lavand">Qui suis-je</NuxtLink>
         <NuxtLink @click="closeMenu" to="/contact" class="text-white text-lg hover:text-lavand">Contact</NuxtLink>
       </nav>

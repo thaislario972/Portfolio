@@ -32,8 +32,8 @@ export const projects: Project[] = [
         slug: 'versus',
         title: "Versus Racing - Site vitrine",
         desc:
-            "Maquettes, prototypage et intégration d’un site vitrine sous WordPress pour présenter la marque et sa gamme de suspensions, avec une attention portée à la structuration des contenus, à la clarté du parcours utilisateur et à la cohérence graphique sur l’ensemble des supports.",
-        imgCard: "/img/Versus/versus-blanc.png",
+            "Maquettes, prototypage et intégration d’un site vitrine sous WordPress pour présenter la marque et sa gamme de suspensions",
+        imgCard: "/img/Versus/versus-logo.png",
         tags: ['vitrine', 'wordpress'],
 
         company: "DriftShop",
@@ -60,9 +60,10 @@ export const projects: Project[] = [
 
         galleryTitle: "Galerie",
         gallery: [
-            { src: "/img/Versus/versus-visu-2.png", alt: "Versus visuel 2", class: "col-span-1 border border-white/60 rounded-2xl w-[100%]" },
-            { src: "/img/Versus/versus-visu-4.png", alt: "Versus visuel 4", class: "col-start-2 row-span-2 h-full border border-white/60 rounded-2xl justify-self-end" },
-            { src: "/img/Versus/versus-visu-3.png", alt: "Versus visuel 3", class: "col-start-1 border border-white/60 rounded-2xl self-end w-[100%]" },
+            { src: "/img/Versus/versus-visu-3.png", alt: "Versus visuel 3", class: "w-full h-full object-contain border border-white/60 rounded-2xl" },
+            { src: "/img/Versus/versus-visu-2.png", alt: "Versus visuel 2", class: "w-full h-full object-contain border border-white/60 rounded-2xl" },
+            { src: "/img/Versus/versus-visu-4.png", alt: "Versus visuel 4", class: "w-full h-full object-contain border border-white/60 rounded-2xl" },
+            { src: "/img/Versus/versus-phone.png", alt: "Versus visuel 5", class: "w-full h-full object-contain border border-white/60 rounded-2xl"  },
         ],
     },
     {
@@ -70,7 +71,7 @@ export const projects: Project[] = [
         slug: 'bps-racing',
         title: "BPS Racing — refonte de site e-commerce",
         desc: "Refonte d’un site e-commerce pour moderniser l’interface, simplifier le parcours utilisateur, avec un tunnel de commande optimisé.",
-        imgCard: "/img/BPS/bps-racing.png",
+        imgCard: "/img/BPS/BPS-LOGO.png",
         tags: ['ecommerce', 'maquette', 'ux-ui'],
 
         company: "DriftShop/BPS Racing",
@@ -101,9 +102,10 @@ export const projects: Project[] = [
 
         galleryTitle: "Galerie",
         gallery: [
-            { src: "/img/BPS/bps-img1.png", alt: "BPS visuel 2", class: "col-span-1 border border-white/60 rounded-2xl h-[100%] object-contain" },
-            { src: "/img/BPS/bps-img3.png", alt: "BPS visuel 4", class: "col-start-2 row-span-2 h-[100%] border border-white/60 rounded-2xl justify-self-end" },
-            { src: "/img/BPS/bps-img2.png", alt: "BPS visuel 3", class: "col-start-1 border border-white/60 rounded-2xl self-end h-[100%] object-contain" },
+            { src: "/img/BPS/bps-img2.png", alt: "BPS visuel 3", class: "w-full h-full object-contain border border-white/60 rounded-2xl" },
+            { src: "/img/BPS/bps-img1.png", alt: "BPS visuel 2", class: "w-full h-full object-contain border border-white/60 rounded-2xl" },
+            { src: "/img/BPS/bps-img3.png", alt: "BPS visuel 4", class: "w-full h-full object-contain border border-white/60 rounded-2xl" },
+            { src: "/img/BPS/bps-phone.png", alt: "BPS visuel 5", class: "w-full h-full object-contain border border-white/60 rounded-2xl"  },
         ],
     },
     {
@@ -111,7 +113,7 @@ export const projects: Project[] = [
         slug: 'driftcup',
         title: "DriftCup — site événementiel",
         desc: "Refonte d’un site événementiel pour moderniser l’interface, améliorer l’ergonomie et structurer la présentation de l’événement.",
-        imgCard: "/img/driftcup/DriftCup.png",
+        imgCard: "/img/driftcup/Logo-DriftCup.png",
         tags: ['wordpress', 'maquette', 'ux-ui'],
 
         company: "DriftShop",
@@ -142,9 +144,10 @@ export const projects: Project[] = [
 
         galleryTitle: "Galerie",
         gallery: [
-            { src: "/img/driftcup/driftcup-visu2.png", alt: "driftcup visuel 2", class: "col-span-1 border border-white/60 rounded-2xl h-[100%] object-contain" },
-            { src: "/img/driftcup/driftcup-visu-4.png", alt: "driftcup visuel 4", class: "col-start-2 row-span-2 h-[100%] border border-white/60 rounded-2xl justify-self-end" },
-            { src: "/img/driftcup/driftcup-visu3.png", alt: "driftcup visuel 3", class: "col-start-1 border border-white/60 rounded-2xl self-end h-[100%] object-contain" },
+            { src: "/img/driftcup/driftcup-visu3.png", alt: "driftcup visuel 3", class: "w-full h-full object-contain border border-white/60 rounded-2xl" },
+            { src: "/img/driftcup/driftcup-visu2.png", alt: "driftcup visuel 2", class: "w-full h-full object-contain border border-white/60 rounded-2xl" },
+            { src: "/img/driftcup/driftcup-visu-4.png", alt: "driftcup visuel 4", class: "w-full h-full object-contain border border-white/60 rounded-2xl" },
+            { src: "/img/driftcup/driftcup-phone.png", alt: "driftcup visuel 5", class: "w-full h-full object-contain border border-white/60 rounded-2xl"  },
         ],
     },
     {
@@ -152,7 +155,7 @@ export const projects: Project[] = [
         slug: 'd2-racing',
         title: "D2 Racing EU — site vitrine",
         desc: "Maquettes, prototypage et intégration d’un site vitrine présentant la marque D2 Racing et sa gamme de suspensions.",
-        imgCard: "/img/d2racing/d2-racing.png",
+        imgCard: "/img/d2racing/logo-D2.png",
         tags: ['wordpress', 'maquette', 'ux-ui', 'vitrine'],
 
         company: "DriftShop",
@@ -183,9 +186,10 @@ export const projects: Project[] = [
 
         galleryTitle: "Galerie",
         gallery: [
-            { src: "/img/d2racing/d2-visu2.png", alt: "D2 racing visuel 2", class: "col-span-1 border border-white/60 rounded-2xl h-[100%] object-contain" },
-            { src: "/img/d2racing/d2-visu4.png", alt: "D2 racing visuel 4", class: "col-start-2 row-span-2 h-[100%] border border-white/60 rounded-2xl justify-self-end" },
-            { src: "/img/d2racing/d2-visu3.png", alt: "D2 racing visuel 3", class: "col-start-1 border border-white/60 rounded-2xl self-end h-[100%] object-contain" },
+            { src: "/img/d2racing/d2-visu3.png", alt: "D2 racing visuel 3", class: "w-full h-full object-contain border border-white/60 rounded-2xl"},
+            { src: "/img/d2racing/d2-visu2.png", alt: "D2 racing visuel 2", class: "w-full h-full object-contain border border-white/60 rounded-2xl"},
+            { src: "/img/d2racing/d2-visu4.png", alt: "D2 racing visuel 4", class: "w-full h-full object-contain border border-white/60 rounded-2xl" },
+            { src: "/img/d2racing/d2-phone.png", alt: "D2 racing visuel 5", class: "w-full h-full object-contain border border-white/60 rounded-2xl"  },
         ],
     },
     {
@@ -193,7 +197,7 @@ export const projects: Project[] = [
         slug: 'car-modify-wonder',
         title: "Car Modify Wonder EU — site vitrine",
         desc: "Maquettes, prototypage et intégration d’un site vitrine présentant la marque et sa gamme de kits carrosserie.",
-        imgCard: "/img/cmw/CMW.jpg",
+        imgCard: "/img/cmw/CMW-logo.png",
         tags: ['wordpress', 'maquette', 'ux-ui', 'vitrine'],
 
         company: "DriftShop",
@@ -224,9 +228,10 @@ export const projects: Project[] = [
 
         galleryTitle: "Galerie",
         gallery: [
-            { src: "/img/cmw/cmw-visu2.png", alt: "D2 racing visuel 2", class: "col-span-1 border border-white/60 rounded-2xl h-[100%] object-contain" },
-            { src: "/img/cmw/cmw-visu4.png", alt: "D2 racing visuel 4", class: "col-start-2 row-span-2 h-[100%] border border-white/60 rounded-2xl justify-self-end" },
-            { src: "/img/cmw/cmw-visu3.png", alt: "D2 racing visuel 3", class: "col-start-1 border border-white/60 rounded-2xl self-end h-[100%] object-contain" },
+            { src: "/img/cmw/cmw-visu3.png", alt: "CMW visuel 3", class: "w-full h-full object-contain border border-white/60 rounded-2xl" },
+            { src: "/img/cmw/cmw-visu2.png", alt: "CMW visuel 2", class: "w-full h-full object-contain border border-white/60 rounded-2xl"},
+            { src: "/img/cmw/cmw-visu4.png", alt: "CMW visuel 4", class: "w-full h-full object-contain border border-white/60 rounded-2xl" },
+            { src: "/img/cmw/CMW-phone.png", alt: "CMW visuel 5", class: "w-full h-full object-contain border border-white/60 rounded-2xl"  },
         ],
     },
     {
@@ -234,7 +239,7 @@ export const projects: Project[] = [
         slug: 'origin-labo',
         title: "Origine Labo EU — site vitrine",
         desc: "Maquettes, prototypage et intégration d’un site vitrine présentant la marque Origine Labo et sa gamme de kits carrosserie.",
-        imgCard: "/img/originlabo/origin-labo.png",
+        imgCard: "/img/originlabo/logo_origin_labo.png",
         tags: ['wordpress', 'maquette', 'ux-ui', 'vitrine'],
 
         company: "DriftShop",
@@ -265,9 +270,10 @@ export const projects: Project[] = [
 
         galleryTitle: "Galerie",
         gallery: [
-            { src: "/img/originlabo/origin-visu2.png", alt: "D2 racing visuel 2", class: "col-span-1 border border-white/60 rounded-2xl h-[100%] object-contain" },
-            { src: "/img/originlabo/origin-visu4.png", alt: "D2 racing visuel 4", class: "col-start-2 row-span-2 h-[100%] border border-white/60 rounded-2xl justify-self-end" },
-            { src: "/img/originlabo/origin-visu3.png", alt: "D2 racing visuel 3", class: "col-start-1 border border-white/60 rounded-2xl self-end h-[100%] object-contain" },
+            { src: "/img/originlabo/origin-visu3.png", alt: "OriginLabo visuel 3", class: "w-full h-full object-contain border border-white/60 rounded-2xl" },
+            { src: "/img/originlabo/origin-visu2.png", alt: "OriginLabo visuel 2", class: "w-full h-full object-contain border border-white/60 rounded-2xl" },
+            { src: "/img/originlabo/origin-visu4.png", alt: "OriginLabo visuel 4", class: "w-full h-full object-contain border border-white/60 rounded-2xl" },
+            { src: "/img/originlabo/origin-phone.png", alt: "OriginLabo visuel 5", class: "w-full h-full object-contain border border-white/60 rounded-2xl"  },
         ],
     },
 ]

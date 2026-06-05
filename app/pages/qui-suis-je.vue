@@ -33,53 +33,53 @@ const parc = [
 
 <template>
   <section class="bg-black">
-    <div class="flex flex-col h-100 justify-center items-center lg:h-70 md:h-60 sm:h-60 p-10 gap-y-5 bg-gradient-to-br from-lavand/20 via-black to-turq/25">
-      <h2 class="text-white text-5xl ">Qui suis-je ?</h2>
-      <p class="text-white/90 text-xl sm:text-center lg:w-[60%]">Designer UX/UI et développeur web passionné, je transforme des concepts créatifs en expériences digitales mémorables.</p>
+    <div class="flex flex-col h-100 justify-center items-center lg:pt-10 md:pt-20 pt-40 lg:h-70 md:h-60 sm:h-60 p-10 gap-y-5 bg-gradient-to-br from-lavand/20 via-black to-turq/25">
+      <h2 class="text-white md:text-5xl text-4xl ">Qui suis-je ?</h2>
+      <p class="text-white/90 md:text-xl text-md text-center sm:text-center lg:w-[60%]">Designer UX/UI et développeur web passionné, je transforme des concepts créatifs en expériences digitales mémorables.</p>
     </div>
-    <div class="bg-gradient-to-bl from-turq/25 via-black to-lavand/20 lg:px-20">
-      <div class="grid xl:grid-cols-2  lg:grid-cols-1 md:grid-cols-1 sm:grid-cols-1 gap-20 p-20 ">
+    <div class="bg-gradient-to-bl from-turq/25 via-black to-lavand/20 lg:px-20 py-0">
+      <div class="grid xl:grid-cols-2  lg:grid-cols-1 md:grid-cols-1 sm:grid-cols-1 gap-20 lg:p-20 p-10 ">
         <div class="flex flex-col gap-5 ">
           <img src="/img/ordi-bur.jpeg" alt="ordi" class="w-full rounded-3xl h-full object-cover" />
           <div class="grid grid-cols-3 gap-7 sm:gap-2">
             <div class=" p-5 flex flex-col justify-center items-center gap-2 border border-white/40 rounded-3xl hover:border-lavand">
               <img src="/img/medal.svg" alt="medal" class="h-10"/>
-              <p class="text-white text-4xl sm:text-3xl">9+</p>
-              <p class="text-white/80 text-xl sm:text-lg text-center">Projets réalisés</p>
+              <p class="text-white sm:text-4xl text-3xl">9+</p>
+              <p class="text-white/80 sm:text-xl text-lg text-center">Projets réalisés</p>
             </div>
             <div class=" p-5 flex flex-col justify-center items-center gap-2 border border-white/40 rounded-3xl hover:border-lavand">
               <img src="/img/user.svg" alt="medal" class="h-10"/>
-              <p class="text-white text-4xl sm:text-3xl">5+</p>
-              <p class="text-white/80 text-xl sm:text-lg text-center">Refontes UX / UI</p>
+              <p class="text-white sm:text-4xl text-3xl">5+</p>
+              <p class="text-white/80 sm:text-xl text-lg text-center">Refontes UX / UI</p>
             </div>
             <div class=" p-5 flex flex-col justify-center items-center gap-2 border border-white/40 rounded-3xl hover:border-lavand">
               <img src="/img/coffee.svg" alt="medal" class="h-10"/>
-              <p class="text-white text-4xl sm:text-3xl">1000+</p>
-              <p class="text-white/80 text-xl sm:text-lg text-center">Tasses de café</p>
+              <p class="text-white sm:text-4xl text-3xl">1000+</p>
+              <p class="text-white/80 sm:text-xl text-lg text-center">Tasses de café</p>
             </div>
           </div>
         </div>
         <div class="flex flex-col gap-10 lg:justify-center ">
           <div class="flex flex-col gap-5">
             <div class="flex gap-5 items-center">
-              <img src="/img/Icon1.png" alt="icon" class="h-18"/>
-              <p class="text-white text-3xl">Ma passion</p>
+              <img src="/img/Icon1.png" alt="icon" class="md:h-18 h-15"/>
+              <p class="text-white md:text-3xl text-2xl">Ma passion</p>
             </div>
-            <p class="text-white/70 text-2xl">Depuis 2 ans, je conçois et refonds des interfaces web dans le cadre de projets professionnels en alternance. J’interviens de la réflexion UX et du prototypage
+            <p class="text-white/70 md:text-2xl text-lg">Depuis 2 ans, je conçois et refonds des interfaces web dans le cadre de projets professionnels en alternance. J’interviens de la réflexion UX et du prototypage
               jusqu’à l’intégration, avec une attention particulière portée à la clarté des parcours et aux besoins des utilisateurs.</p>
           </div>
           <div class="flex flex-col gap-5">
             <div class="flex gap-5 items-center">
-              <img src="/img/Icon3.png" alt="icon" class="h-18"/>
-              <p class="text-white text-3xl">Mon approche</p>
+              <img src="/img/Icon3.png" alt="icon" class="md:h-18 h-15"/>
+              <p class="text-white md:text-3xl text-2xl">Mon approche</p>
             </div>
-            <p class="text-white/70 text-2xl">J’adopte une approche globale des projets web, en reliant réflexion UX, design et intégration. Cette vision me permet de concevoir des interfaces cohérentes,
+            <p class="text-white/70 md:text-2xl text-lg">J’adopte une approche globale des projets web, en reliant réflexion UX, design et intégration. Cette vision me permet de concevoir des interfaces cohérentes,
               simples à utiliser et techniquement fiables, en restant toujours attentive aux usages réels et aux contraintes du projet.</p>
           </div>
           <div class="flex flex-col gap-5 ">
             <div class="flex gap-5 items-center">
-              <img src="/img/Icon4.png" alt="icon" class="h-18"/>
-              <p class="text-white text-3xl">Mes compétences</p>
+              <img src="/img/Icon4.png" alt="icon" class="md:h-18 h-15"/>
+              <p class="text-white md:text-3xl text-2xl">Mes compétences</p>
             </div>
             <div class=" space-y-6 ">
               <ProgressBar
