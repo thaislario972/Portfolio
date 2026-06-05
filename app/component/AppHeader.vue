@@ -10,7 +10,7 @@ const closeMenu = () => (isOpen.value = false)
     <div class="h-24 px-6 md:px-10 flex items-center justify-between">
       <!-- Logo -->
       <NuxtLink to="/" class="flex items-center">
-        <img src="/img/logo.png" alt="logo" class="h-20 w-auto" />
+        <img src="/img/logo-portfolio.png" alt="logo" class="size-20 w-auto" />
       </NuxtLink>
 
       <!-- Menu desktop -->
