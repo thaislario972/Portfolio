@@ -3,12 +3,12 @@
 </script>
 
 <template >
-  <section class="w-full max-w-full bg-black">
-    <div class="relative w-full max-w-full min-h-screen overflow-x-hidden overflow-y-hidden bg-gradient-to-br from-turq/30 via-black to-turq/20 sm:from-lavand/15 flex justify-center items-center" >
+  <section class="w-full max-w-full bg-black overflow-hidden">
+    <div class="relative isolate w-full max-w-full min-h-screen overflow-hidden bg-gradient-to-br from-turq/30 via-black to-turq/20 sm:from-lavand/15 flex justify-center items-center">
       <!-- calque lumières -->
-      <div class="hidden sm:block absolute inset-0 pointer-events-none max-w-full">
-        <span class="light absolute top-18 left-[20%] color-lavand animation-delay-4000"></span>
-        <span class=" sm:visible invisible light2 absolute top-1/3 right-[20%] animation-delay-2000"></span>
+      <div class="absolute inset-0 pointer-events-none overflow-hidden">
+        <span class="light absolute top-18 left-1/2 -translate-x-1/2 color-lavand animation-delay-4000"></span>
+        <span class="hidden sm:block light2 absolute top-1/3 right-[20%] animation-delay-2000"></span>
       </div>
 
       <!-- contenu -->
