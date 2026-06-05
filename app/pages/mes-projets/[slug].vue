@@ -138,7 +138,7 @@ const closeModal = () => {
               class="flex flex-col justify-center items-center gap-5 border border-lavand/60 rounded-xl p-8 bg-gradient-to-br from-lavand/20 to-turq/20"
           >
             <img src="/img/check.svg" alt="check" class="md:size-15 size-12" />
-            <p class="text-white text-xl text-center">{{ r }}</p>
+            <p class="text-white md:text-xl text-lg text-center">{{ r }}</p>
           </div>
         </div>
       </div>

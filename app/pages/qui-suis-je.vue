@@ -33,7 +33,7 @@ const parc = [
 
 <template>
   <section class="bg-black">
-    <div class="flex flex-col h-100 justify-center items-center lg:pt-10 md:pt-20 pt-40 lg:h-70 md:h-60 sm:h-60 p-10 gap-y-5 bg-gradient-to-br from-lavand/20 via-black to-turq/25">
+    <div class="flex flex-col h-80 justify-center items-center lg:pt-10 md:pt-20 pt-30 lg:h-70 md:h-60 sm:h-60 p-10 gap-y-5 bg-gradient-to-br from-lavand/20 via-black to-turq/25">
       <h2 class="text-white md:text-5xl text-4xl ">Qui suis-je ?</h2>
       <p class="text-white/90 md:text-xl text-md text-center sm:text-center lg:w-[60%]">Designer UX/UI et développeur web passionné, je transforme des concepts créatifs en expériences digitales mémorables.</p>
     </div>
@@ -43,19 +43,19 @@ const parc = [
           <img src="/img/ordi-bur.jpeg" alt="ordi" class="w-full rounded-3xl h-full object-cover" />
           <div class="grid grid-cols-3 gap-7 sm:gap-2">
             <div class=" p-5 flex flex-col justify-center items-center gap-2 border border-white/40 rounded-3xl hover:border-lavand">
-              <img src="/img/medal.svg" alt="medal" class="h-10"/>
-              <p class="text-white sm:text-4xl text-3xl">9+</p>
-              <p class="text-white/80 sm:text-xl text-lg text-center">Projets réalisés</p>
+              <img src="/img/medal.svg" alt="medal" class="md:h-10 h-6"/>
+              <p class="text-white md:text-4xl text-xl">9+</p>
+              <p class="text-white/80 md:text-xl text-lg text-center">Projets réalisés</p>
             </div>
             <div class=" p-5 flex flex-col justify-center items-center gap-2 border border-white/40 rounded-3xl hover:border-lavand">
-              <img src="/img/user.svg" alt="medal" class="h-10"/>
-              <p class="text-white sm:text-4xl text-3xl">5+</p>
-              <p class="text-white/80 sm:text-xl text-lg text-center">Refontes UX / UI</p>
+              <img src="/img/user.svg" alt="medal" class="md:h-10 h-6"/>
+              <p class="text-white md:text-4xl text-xl">5+</p>
+              <p class="text-white/80 md:text-xl text-lg text-center">Refontes UX / UI</p>
             </div>
             <div class=" p-5 flex flex-col justify-center items-center gap-2 border border-white/40 rounded-3xl hover:border-lavand">
-              <img src="/img/coffee.svg" alt="medal" class="h-10"/>
-              <p class="text-white sm:text-4xl text-3xl">1000+</p>
-              <p class="text-white/80 sm:text-xl text-lg text-center">Tasses de café</p>
+              <img src="/img/coffee.svg" alt="medal" class="md:h-10 h-6"/>
+              <p class="text-white md:text-4xl text-xl">1000+</p>
+              <p class="text-white/80 md:text-xl text-lg text-center">Tasses de café</p>
             </div>
           </div>
         </div>

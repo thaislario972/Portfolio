@@ -14,8 +14,8 @@ const props = defineProps<{
     </div>
     <div class="flex flex-col p-7 border border-white/40 group-hover:border-lavand rounded-2xl gap-3 w-[85%] md:w-[70%] sm:w-[80%] h-40 lg:h-45 md:h-50 sm:h-55 justify-center">
       <p class="text-lavand">{{ year }}</p>
-      <p class="text-white md:text-2xl text-xl">{{title}} </p>
-      <p class="text-white/70 md:text-xl text-lg">{{descr}}</p>
+      <p class="text-white md:text-2xl text-lg">{{title}} </p>
+      <p class="text-white/70 md:text-xl text-md">{{descr}}</p>
     </div>
   </div>
 </template>
