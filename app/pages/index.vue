@@ -13,7 +13,7 @@
 
       <!-- contenu -->
       <div class="z-5 px-8 py-[10%] text-white flex flex-col items-center sm:pt-0 pt-50 w-full">
-        <p class="w-70 rounded-full h-10 bg-white/10 text-center flex justify-center items-center border-1 border-lavand mb-5 ">Designer & Développeur Web</p>
+        <p class="w-70 rounded-full h-10 bg-white/10 text-center flex justify-center items-center border-1 border-lavand mb-5 pt-30">Designer & Développeur Web</p>
         <h1 class="lg:text-9xl mb-4 text-center text-white/90 md:text-8xl sm:text-7xl text-5xl">Créatrice <br> d'Expériences <br> Digitales</h1>
         <p class="text-md sm:text-lg md:text-2xl w-full max-w-[90vw] sm:max-w-[38rem] text-center text-white/70 md:mt-10 mt-5">Je conçois et développe des interfaces web modernes, intuitives et engageantes qui transforment vos idées en réalité digitale.</p>
         <div class="md:mt-20 mt-10 gap-5 sm:gap-10 flex flex-col sm:flex-row w-full max-w-[90vw] justify-center items-center">
